@@ -495,7 +495,7 @@ def situation_B2_2_2_1():
         else:   
             print("Invalid choice. Please try again.")
 
-def ituation_B2_2_2_2():
+def situation_B2_2_2_2():
     print("You open the door and find yourself in a perfectly silent corridor. The air is still. You pass through a series of archways, each one slightly different.\nEventually, you realize you're being followed by your own footsteps, echoing behind you even when you stop walking.")
     while True:
         B2_2_2_2_choice = input("What do you do next?\n[A] Break into a sprint and try to escape the loop.\n[B] Turn and confront whatever shadow follows you.").lower()
