@@ -27,9 +27,9 @@ clear state transitions, and a terminal-based interface that takes players on a 
 
 ### Mechanics
 #### Input Handling
-- All player input is normalized using .lower(), validated against known options, and re-prompted on invalid entry. This ensures valid state transitions and predictable program behavior.
+- All player input is normalized using `.lower()`, validated against known options, and re-prompted on invalid entry. This ensures valid state transitions and predictable program behavior.
 #### State Design
-- Each situation_ function describes the current narrative state, presents valid player options, validates user input using a while True loop, and transitions explicitly to the
+- Each `situation_` function describes the current narrative state, presents valid player options, validates user input using a while True loop, and transitions explicitly to the
 next state.
 #### Randomization
 - Uses Python's built in random module to increase replayability and to avoid guranteed outcomes for the "narratively unsafe" choices
@@ -40,5 +40,6 @@ next state.
 - Naming conventions enforce predictable flow
 ## Authors and acknowledgment
 VezioK
+
 
 
